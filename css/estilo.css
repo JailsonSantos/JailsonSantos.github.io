@@ -65,6 +65,9 @@ body {
 	span{
 		font-size: 9pt;
 	}
+	#cardPorftolio{
+		width: 13rem !important;
+	}
 	#fundoTopo{
 		height: 180px !important;
 	}
