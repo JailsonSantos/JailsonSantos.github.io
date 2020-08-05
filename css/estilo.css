@@ -71,6 +71,7 @@ body {
 	#fundoTopo{
 		height: 180px !important;
 	}
+
 	figcaption#legenda{
 		font-size: 8pt;
 		font-style: italic;
@@ -266,7 +267,10 @@ body {
 	#fundoTopo{
 		height: 340px !important;
 	}
-
+	#bordaEnd{
+		border-right: 2px solid white;
+		padding-bottom: 10px;
+	}
 	.sombra:hover{
 	transform: scale(1.1);
 	box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
@@ -395,6 +399,9 @@ body{
 		background-color: #007BFF; 
 		border-radius: 50%; 
 		width: 200px;
+	}
+	#bordaEnd{
+		border-right: 2px solid white;
 	}
 	a#social1 {
 		font-size: 14pt;
