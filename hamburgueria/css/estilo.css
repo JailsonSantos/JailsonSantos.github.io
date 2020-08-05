@@ -1,0 +1,214 @@
+/*Estilos Personalizados*/
+/*Configuração do TOPO*/
+
+.bg-topo{
+	background-color: #0E0A17;
+
+}
+
+.bg-topo1{
+	background-color: #0E0A17;
+	
+}
+
+.bg-paralax{
+	background: url(../img/fundotransparente.png) fixed;
+	position: relative;
+
+}
+
+.btn-orcamento{
+	border: 2px solid #fff;
+	background: none;
+	position: relative;
+	color: #fff;
+	z-index: 1;
+	border-radius: 30px;
+	height: 100%;
+
+}
+
+.btn-orcamento:hover{
+	color: black;
+	font-weight: bolder;
+	background: #fff;
+	border-color: #fff;
+	transition: all .50s ease-in-out;
+	-moz-transition: all .50s ease-in-out;
+	-webkit-transition: all .50s ease-in-out;
+}
+
+@media (max-width: 599px){
+	#novoStilo{
+
+		font-size:9pt;
+		width: 100%;
+		font-style: italic;
+		color: white; 
+		text-align: center;
+		padding: auto;
+	}
+}
+
+@media (min-width: 600px) and (max-width: 799px){
+	#novoStilo{
+
+		font-size: 13pt;
+		width: 100%;
+		font-style: italic;
+		color: white; 
+		text-align: center;
+		padding: auto;
+	}
+}
+
+@media (min-width: 800px){
+	#novoStilo{
+
+		font-size: 17pt;
+		font-weight: bolder;
+		color: white;
+		text-align: center;
+		width: 100% 
+		height: 100%;
+		padding: auto;
+
+	}
+
+}
+
+
+@media(max-width: 599px){
+	.novaImg{
+		width: 50%;
+		margin: 10px;
+	}
+
+	.container-login{
+		width: 80%;
+	}
+}
+
+@media (min-width: 600px) and (max-width: 899px){
+	.novaImg{
+		width: 60%;
+		margin: 10px;
+	}
+
+	.container-login{
+		width: 50%;
+	}
+
+	#promo1 {
+		font-size: 30pt;
+	}
+
+	#promo2 {
+		font-size: 50pt;
+	}
+}
+
+@media (min-width: 900px){
+	.novaImg{
+		width: 90%;
+		padding: 10px;
+	}
+
+	.container-login{
+		width: 40%;
+	}
+
+	#promo1 {
+		font-size: 50pt;
+	}
+
+	#promo2 {
+		font-size: 80pt;
+	}
+
+}
+
+
+
+.bg{
+	background-image: url(/img/fundoContato.png);
+	height: 100%;
+	width: 100%;
+}
+
+.bg-rodape{
+	background-color: #BA3E49;
+}
+
+.bg-rodape ul li{
+	list-style: none;
+}
+
+.bg-rodape ul{
+	-webkit-padding-start: 0px;
+	-moz-padding-start: 0px;
+}
+.bg-rodape2{
+	background-color: #BA3E49;
+}
+
+a.icone-social{
+	color: #b3aec2;
+}
+
+.underline-footer{
+	content: '';
+	border-top: 2px solid #ff3859;
+	width: 70px;
+	display: block;;
+	margin-top: 5px;
+}
+
+.bg-card-rodape{
+	background-color: #ff3859;
+}
+
+.icon-banner-rodape{
+	color: white;
+}
+
+/*
+
+color: #68627a; cor do site.canal
+body{
+	margin-top: 50px;
+}
+
+.row{
+	margin-bottom: 10px;
+}
+
+.bg-servicos{
+	background: linear-gradient(131.26deg, #312b45 30%, #ff3859 100%);
+
+
+}
+
+*Configurações Gerais*
+
+.underline{
+	content:  '';
+	border-top: 2px solid #ff3859;
+	width: 70px;
+	display: block;
+	margin-bottom: 8px;
+	margin: 0 auto;
+}
+/
+
+Comentado
+
+img{
+	border: 2px solid #00FF00;
+	border-radius: 3px;
+}
+
+
+
+*/
+
