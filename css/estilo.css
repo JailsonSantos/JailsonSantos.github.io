@@ -81,10 +81,15 @@ body {
 	box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
 	margin-bottom: 10px;
 	}
-
+	img#zap{
+		 position: 
+		 fixed; width: 50px; 
+		 bottom: 5px; 
+		 right: 5px;"
+	}
 	a#logo{
 		font-size: 15px; 
-		background-color: #007BFF; 
+		background-image: linear-gradient(150deg, #13547a 0%, #80d0c7 100%); 
 		border-radius: 50%; 
 		width: 90px;
 	}
@@ -124,13 +129,6 @@ body {
 		font-size: 12px;
 		color: white;
 	}
-	a#social5 {
-		padding-bottom: 5px;
-		margin-left: 200px;
-		font-size: 12px;
-		color: white;
-	}
-
 	.info{
 		padding-bottom: 20px;
 		border-bottom: 2px solid white;
@@ -176,11 +174,16 @@ body {
 	}
 	a#logo{
 		font-size: 20px; 
-		background-color: #007BFF; 
+		background-image: linear-gradient(150deg, #13547a 0%, #80d0c7 100%);
 		border-radius: 50%; 
 		width: 120px;
 	}
-
+	img#zap{
+		 position: 
+		 fixed; width: 80px; 
+		 bottom: 5px; 
+		 right: 5px;"
+	}
 	h5#end, p#end, a#end{
 		font-size: 13pt !important;
 	}
@@ -221,12 +224,6 @@ body {
 		font-size: 20px;
 		color: white;
 	}
-	a#social5 {
-		padding-bottom: 5px;
-		margin-left: 290px;
-		font-size: 20px;
-		color: white;
-	}
 	.line {
 		border-right: 2px solid rgba(255, 255, 255, 0.75);
 		color: rgba(255, 255, 255, 0.75);
@@ -259,6 +256,12 @@ body {
 		font-size: 15pt;
 		font-weight: bolder;
 	}
+	img#zap{
+		 position: 
+		 fixed; width: 90px; 
+		 bottom: 15px; 
+		 right: 15px;"
+	}
 	span, a#end{
 		font-size: 11pt;
 		padding-top: 10px !important;
@@ -283,7 +286,7 @@ body {
 
 	a#logo{
 		font-size: 25px; 
-		background-color: #007BFF; 
+		background-image: linear-gradient(150deg, #13547a 0%, #80d0c7 100%);
 		border-radius: 50%; 
 		width: 150px;
 	}
@@ -334,18 +337,7 @@ body {
 		text-decoration: underline #28A745;
 		color: white;
 	}
-	a#social5 {
-		padding-bottom: 5px;
-		margin-left: 230px;
-		text-decoration: none;
-		color: white;
-	}
-	a#social5:hover{
-		padding-bottom: 5px;
-		margin-left: 230px;
-		text-decoration: underline white;
-		color: white;
-	}
+	
 	.line {
 		border-right: 2px solid rgba(255, 255, 255, 0.75);
 		color: rgba(255, 255, 255, 0.75);
@@ -394,9 +386,15 @@ body{
 	a#end{
 		font-size: 14pt;
 	}
+	img#zap{
+		position: fixed; 
+		width: 100px; 
+		bottom: 20px; 
+		right: 25px;"
+	}
 	a#logo{
 		font-size: 30px; 
-		background-color: #007BFF; 
+		background-image: linear-gradient(150deg, #13547a 0%, #80d0c7 100%);
 		border-radius: 50%; 
 		width: 200px;
 	}
@@ -455,20 +453,6 @@ body{
 		padding-bottom: 5px;
 		margin-left: 260px;
 		text-decoration: underline #28A745;
-		color: white;
-	}
-	a#social5 {
-		font-size: 14pt;
-		padding-bottom: 5px;
-		margin-left: 300px;
-		text-decoration: none;
-		color: white;
-	}
-	a#social5:hover{
-		font-size: 14pt;
-		padding-bottom: 5px;
-		margin-left: 300px;
-		text-decoration: underline white;
 		color: white;
 	}
 	.line {
